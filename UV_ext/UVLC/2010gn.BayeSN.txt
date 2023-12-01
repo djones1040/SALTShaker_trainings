@@ -1,0 +1,54 @@
+#      sn2010gn 
+# Andy Friedman's Wstd file converted to SNANA-like format. 
+# Source file: sn2010gn__J_3_H_3_K_2__CfAIR2_friedman15.Wstd.dat 
+# Metadata information from: carrick_Flow_corrections_snnames_v1.txt 
+# Photometry and metadata compiled by Andrew S. Friedman (UCSD).
+# write_all_filters = True. 
+# Zeropoint of the converted SNANA file: 27.5 mag
+#------------------------------------------------------------
+# Data table created by: Arturo_Avelino
+# On date: 2019.07.16 (yyyy.mm.dd); 14:32 hrs (ET). 
+# Script used: 03_WstdAndy_to_SNANA.ipynb 
+# Script version: 0.1.9 
+#------------------------------------------------------------
+SURVEY: LOWZ 
+SNID: 2010gn 
+IAUC: 2010gn 
+RA: 259.45875 deg 
+DECL: 40.88139 deg 
+MWEBV: 0.026 # MW E(B-V)
+REDSHIFT_HELIO: 0.03136 +- 0.00006
+REDSHIFT_CMB: 0.03124 +- 0.00006
+VPEC: -37.702
+VPEC_ERR: 250.000
+SEARCH_PEAKMJD: 55391.6328
+FILTERS: UBVRIfhjkltyzAuxvwJHKCEFGZriWDLOX
+#------------------------------------------------------------
+NOBS: 23
+NVAR: 7 
+VARLIST:  MJD  FLT           FIELD       FLUXCAL         FLUXCALERR  MAG  MAGERR  
+OBS: 55383.273  CfA-J/J            VOID       13736.2490       1446.5670    0     0 
+OBS: 55384.282  CfA-J/J            VOID       13189.2770        767.5590    0     0 
+OBS: 55387.295  CfA-J/J            VOID       18278.9700       2920.9710    0     0 
+OBS: 55383.273  CfA-H/H            VOID        7532.0380       1203.6160    0     0 
+OBS: 55384.282  CfA-H/H            VOID        7751.2330       1573.6140    0     0 
+OBS: 55387.295  CfA-H/H            VOID       10768.1040       2264.3110    0     0 
+OBS: 55385.256 Bessell-B/B VOID 14010.0600 428.1770 0 0
+OBS: 55393.197 Bessell-B/B VOID 17120.6400 445.0970 0 0
+OBS: 55441.173 Bessell-B/B VOID 751.3460 142.6510 0 0
+OBS: 55450.200 Bessell-B/B VOID 841.4730 159.3220 0 0
+OBS: 55385.252 Bessell-V/V VOID 13746.7490 357.3830 0 0
+OBS: 55393.194 Bessell-V/V VOID 17614.8930 424.7290 0 0
+OBS: 55441.169 Bessell-V/V VOID 2140.7210 197.6880 0 0
+OBS: 55450.196 Bessell-V/V VOID 1883.3020 192.0830 0 0
+OBS: 55385.248 USNO-r/r VOID 13502.0590 320.7060 0 0
+OBS: 55393.191 USNO-r/r VOID 17317.2930 386.3950 0 0
+OBS: 55441.166 USNO-r/r VOID 2617.4600 189.0610 0 0
+OBS: 55450.193 USNO-r/r VOID 1992.8750 169.9870 0 0
+OBS: 55502.103 USNO-r/r VOID 642.3330 153.3650 0 0
+OBS: 55385.244 USNO-i/i VOID 11157.3230 335.0120 0 0
+OBS: 55393.188 USNO-i/i VOID 9564.0100 363.7520 0 0
+OBS: 55441.162 USNO-i/i VOID 1677.7220 177.6230 0 0
+OBS: 55450.189 USNO-i/i VOID 1364.8350 174.5800 0 0
+END_PHOTOMETRY:
+END:

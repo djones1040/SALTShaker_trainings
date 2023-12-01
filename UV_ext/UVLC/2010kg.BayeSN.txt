@@ -1,0 +1,176 @@
+#      sn2010kg 
+# Andy Friedman's Wstd file converted to SNANA-like format. 
+# Source file: sn2010kg__B_23_V_23_r_prime_23_i_prime_24__CfA5_challis15.Wstd.dat 
+# Metadata information from: carrick_Flow_corrections_snnames_v1.txt 
+# Photometry and metadata compiled by Andrew S. Friedman (UCSD).
+# write_all_filters = True. 
+# Zeropoint of the converted SNANA file: 27.5 mag
+#------------------------------------------------------------
+# Data table created by: Arturo_Avelino
+# On date: 2019.07.16 (yyyy.mm.dd); 14:32 hrs (ET). 
+# Script used: 03_WstdAndy_to_SNANA.ipynb 
+# Script version: 0.1.9 
+#------------------------------------------------------------
+SURVEY: LOWZ 
+SNID: 2010kg 
+IAUC: 2010kg 
+RA: 70.035 deg 
+DECL: 7.35 deg 
+MWEBV: 0.134 # MW E(B-V)
+REDSHIFT_HELIO: 0.01663 +- 0.00001
+REDSHIFT_CMB: 0.01644 +- 0.00001
+VPEC: -169.810
+VPEC_ERR: 250.000
+SEARCH_PEAKMJD: 55543.6172
+FILTERS: UBVRIfhjkltyzAuxvwJHKCEFGZriWDLOX
+#------------------------------------------------------------
+NOBS: 145
+NVAR: 7 
+VARLIST:  MJD  FLT           FIELD       FLUXCAL         FLUXCALERR  MAG  MAGERR  
+OBS: 55532.386  Bessell-B/B            VOID        7263.7350        334.5850    0     0 
+OBS: 55533.323  Bessell-B/B            VOID       10569.1490        393.5490    0     0 
+OBS: 55534.146  Bessell-B/B            VOID       13393.0660        499.8870    0     0 
+OBS: 55536.305  Bessell-B/B            VOID       21974.5500        642.1370    0     0 
+OBS: 55538.148  Bessell-B/B            VOID       27494.1310        690.1070    0     0 
+OBS: 55539.240  Bessell-B/B            VOID       32320.6440        822.8600    0     0 
+OBS: 55540.297  Bessell-B/B            VOID       33345.7120        944.5940    0     0 
+OBS: 55541.212  Bessell-B/B            VOID       33345.7120        932.6550    0     0 
+OBS: 55542.202  Bessell-B/B            VOID       36809.5070       1220.1620    0     0 
+OBS: 55543.115  Bessell-B/B            VOID       35964.9950       1316.8490    0     0 
+OBS: 55544.203  Bessell-B/B            VOID       35068.7270       1018.5010    0     0 
+OBS: 55545.237  Bessell-B/B            VOID       33527.4100        763.1770    0     0 
+OBS: 55552.177  Bessell-B/B            VOID       22078.0140       1804.9210    0     0 
+OBS: 55555.304  Bessell-B/B            VOID       15159.3300       1113.0920    0     0 
+OBS: 55559.086  Bessell-B/B            VOID        8318.4040        368.5340    0     0 
+OBS: 55564.080  Bessell-B/B            VOID        4752.9140        388.5600    0     0 
+OBS: 55572.212  Bessell-B/B            VOID        2025.8160        260.2660    0     0 
+OBS: 55575.189  Bessell-B/B            VOID        3210.9980        443.0370    0     0 
+OBS: 55581.080  Bessell-B/B            VOID        2075.1050        815.0190    0     0 
+OBS: 55587.081  Bessell-B/B            VOID        1481.9720        294.7830    0     0 
+OBS: 55589.227  Bessell-B/B            VOID        1934.1050        714.7780    0     0 
+OBS: 55597.185  Bessell-B/B            VOID        1330.5770        263.7840    0     0 
+OBS: 55628.140  Bessell-B/B            VOID        1180.7560        289.6690    0     0 
+OBS: 55532.383  Bessell-V/V            VOID       10846.2600        461.4150    0     0 
+OBS: 55533.320  Bessell-V/V            VOID       14413.1860        386.3410    0     0 
+OBS: 55534.142  Bessell-V/V            VOID       17853.3620        542.4480    0     0 
+OBS: 55536.301  Bessell-V/V            VOID       27484.0040        558.7380    0     0 
+OBS: 55538.152  Bessell-V/V            VOID       35898.8060        567.4750    0     0 
+OBS: 55539.237  Bessell-V/V            VOID       41213.5480       1093.6330    0     0 
+OBS: 55540.293  Bessell-V/V            VOID       42949.6870       1400.7420    0     0 
+OBS: 55541.215  Bessell-V/V            VOID       44725.9940        885.0390    0     0 
+OBS: 55542.199  Bessell-V/V            VOID       47713.3600        758.5590    0     0 
+OBS: 55543.111  Bessell-V/V            VOID       49691.2590        799.0120    0     0 
+OBS: 55544.200  Bessell-V/V            VOID       49952.8190       1001.9960    0     0 
+OBS: 55545.234  Bessell-V/V            VOID       50312.9750        991.0520    0     0 
+OBS: 55555.300  Bessell-V/V            VOID       31997.7910        713.9550    0     0 
+OBS: 55559.082  Bessell-V/V            VOID       26602.3500        531.2110    0     0 
+OBS: 55564.077  Bessell-V/V            VOID       21177.7590        453.4530    0     0 
+OBS: 55572.208  Bessell-V/V            VOID       12561.4570        406.3160    0     0 
+OBS: 55575.185  Bessell-V/V            VOID        9978.8390        423.6340    0     0 
+OBS: 55581.076  Bessell-V/V            VOID        8294.6870        328.6920    0     0 
+OBS: 55587.085  Bessell-V/V            VOID        6365.6100        310.5280    0     0 
+OBS: 55589.223  Bessell-V/V            VOID        6120.1210        366.2510    0     0 
+OBS: 55597.181  Bessell-V/V            VOID        4909.0790        381.3540    0     0 
+OBS: 55620.189  Bessell-V/V            VOID        3465.1340        461.5480    0     0 
+OBS: 55628.137  Bessell-V/V            VOID        1782.2150        353.7150    0     0 
+OBS: 55532.379  USNO-r/r      VOID       12132.7710        401.0970    0     0 
+OBS: 55533.316  USNO-r/r      VOID       16757.1440        826.2550    0     0 
+OBS: 55534.138  USNO-r/r      VOID       20415.4990        589.2750    0     0 
+OBS: 55536.298  USNO-r/r      VOID       32098.1500        958.0500    0     0 
+OBS: 55538.156  USNO-r/r      VOID       40379.4130        711.4410    0     0 
+OBS: 55539.233  USNO-r/r      VOID       44561.5200        958.1560    0     0 
+OBS: 55540.289  USNO-r/r      VOID       47572.9410       1052.9090    0     0 
+OBS: 55541.219  USNO-r/r      VOID       50238.8860        821.4740    0     0 
+OBS: 55542.194  USNO-r/r      VOID       51722.5590        859.7900    0     0 
+OBS: 55543.108  USNO-r/r      VOID       53098.2250        978.7530    0     0 
+OBS: 55544.196  USNO-r/r      VOID       53792.2860        894.1950    0     0 
+OBS: 55545.230  USNO-r/r      VOID       54646.2040        952.9160    0     0 
+OBS: 55555.296  USNO-r/r      VOID       31318.4310        577.2890    0     0 
+OBS: 55559.079  USNO-r/r      VOID       27700.0150        525.6120    0     0 
+OBS: 55564.073  USNO-r/r      VOID       26982.3640        575.3070    0     0 
+OBS: 55572.204  USNO-r/r      VOID       17704.3510        457.0950    0     0 
+OBS: 55575.182  USNO-r/r      VOID       14007.4800        352.8480    0     0 
+OBS: 55581.073  USNO-r/r      VOID       10994.1080        473.5200    0     0 
+OBS: 55587.088  USNO-r/r      VOID        8808.8660        250.3200    0     0 
+OBS: 55589.219  USNO-r/r      VOID        8166.5760        348.1380    0     0 
+OBS: 55597.178  USNO-r/r      VOID        6307.8300        340.7760    0     0 
+OBS: 55620.185  USNO-r/r      VOID        2403.9200        663.0750    0     0 
+OBS: 55628.134  USNO-r/r      VOID        2409.4620        365.4660    0     0 
+OBS: 55532.375  USNO-i/i      VOID        7574.6050        373.4860    0     0 
+OBS: 55533.312  USNO-i/i      VOID       11087.6630        528.2440    0     0 
+OBS: 55534.135  USNO-i/i      VOID       14231.1500        936.4050    0     0 
+OBS: 55536.294  USNO-i/i      VOID       24504.1700        744.5220    0     0 
+OBS: 55538.159  USNO-i/i      VOID       30851.7640        571.4760    0     0 
+OBS: 55539.229  USNO-i/i      VOID       32988.3050       1102.3080    0     0 
+OBS: 55540.285  USNO-i/i      VOID       33657.3560       1043.6620    0     0 
+OBS: 55541.222  USNO-i/i      VOID       33061.3060        627.3440    0     0 
+OBS: 55542.191  USNO-i/i      VOID       32407.0870        734.7580    0     0 
+OBS: 55543.104  USNO-i/i      VOID       31042.7370        893.2450    0     0 
+OBS: 55544.192  USNO-i/i      VOID       31108.5670        612.7690    0     0 
+OBS: 55545.226  USNO-i/i      VOID       31573.3020        681.7300    0     0 
+OBS: 55552.166  USNO-i/i      VOID       16621.8750       1113.7240    0     0 
+OBS: 55555.293  USNO-i/i      VOID       15843.0940        935.7590    0     0 
+OBS: 55559.075  USNO-i/i      VOID       15375.8810       1166.9960    0     0 
+OBS: 55564.069  USNO-i/i      VOID       17644.1200        780.1430    0     0 
+OBS: 55572.201  USNO-i/i      VOID       16174.8400        726.5650    0     0 
+OBS: 55575.178  USNO-i/i      VOID       12250.6740        747.9690    0     0 
+OBS: 55581.069  USNO-i/i      VOID       10237.6430        858.5690    0     0 
+OBS: 55587.092  USNO-i/i      VOID        6429.2450        469.3310    0     0 
+OBS: 55589.216  USNO-i/i      VOID        6147.2380        633.5770    0     0 
+OBS: 55597.174  USNO-i/i      VOID        4272.0860        491.4920    0     0 
+OBS: 55620.182  USNO-i/i      VOID        2203.9410        709.0830    0     0 
+OBS: 55628.130  USNO-i/i      VOID        1107.4390        257.8680    0     0 
+OBS: 55532.158 CfA-J/J VOID 17623.4890 3695.3730 0 0
+OBS: 55533.156 CfA-J/J VOID 25053.7890 3950.8680 0 0
+OBS: 55534.259 CfA-J/J VOID 28997.8860 4209.6640 0 0
+OBS: 55535.288 CfA-J/J VOID 37725.8770 3085.3510 0 0
+OBS: 55536.177 CfA-J/J VOID 37120.9580 2046.8200 0 0
+OBS: 55537.287 CfA-J/J VOID 46908.9920 3830.7680 0 0
+OBS: 55538.258 CfA-J/J VOID 47541.2250 2116.2410 0 0
+OBS: 55539.166 CfA-J/J VOID 49686.0470 2984.9870 0 0
+OBS: 55540.173 CfA-J/J VOID 47381.0910 3342.7540 0 0
+OBS: 55541.265 CfA-J/J VOID 47921.6400 3782.2170 0 0
+OBS: 55542.197 CfA-J/J VOID 42217.5770 693.1360 0 0
+OBS: 55566.205 CfA-J/J VOID 20213.5870 3042.3920 0 0
+OBS: 55567.209 CfA-J/J VOID 24057.3560 3844.3540 0 0
+OBS: 55569.202 CfA-J/J VOID 22735.0200 3633.0450 0 0
+OBS: 55570.200 CfA-J/J VOID 24348.8280 2489.1120 0 0
+OBS: 55571.196 CfA-J/J VOID 24922.8080 3244.7960 0 0
+OBS: 55572.190 CfA-J/J VOID 24238.1020 3873.2370 0 0
+OBS: 55573.184 CfA-J/J VOID 24704.5590 3947.7770 0 0
+OBS: 55574.178 CfA-J/J VOID 24884.6240 3976.5510 0 0
+OBS: 55576.209 CfA-J/J VOID 22584.9750 5110.3850 0 0
+OBS: 55578.134 CfA-J/J VOID 18645.8410 2979.5960 0 0
+OBS: 55595.211 CfA-J/J VOID 11951.8100 2704.3800 0 0
+OBS: 55598.126 CfA-J/J VOID 11000.1780 1757.8230 0 0
+OBS: 55601.246 CfA-J/J VOID 9500.1120 1518.1130 0 0
+OBS: 55607.110 CfA-J/J VOID 6218.4020 1407.0600 0 0
+OBS: 55532.158 CfA-H/H VOID 26988.2370 3982.7430 0 0
+OBS: 55533.156 CfA-H/H VOID 30054.3380 7499.9810 0 0
+OBS: 55534.259 CfA-H/H VOID 33086.0630 4418.8390 0 0
+OBS: 55535.288 CfA-H/H VOID 37634.2430 6013.9340 0 0
+OBS: 55536.177 CfA-H/H VOID 34539.2460 7815.3210 0 0
+OBS: 55537.287 CfA-H/H VOID 37663.9150 2544.6190 0 0
+OBS: 55538.258 CfA-H/H VOID 44149.7700 1712.6630 0 0
+OBS: 55539.166 CfA-H/H VOID 42009.3250 3866.3470 0 0
+OBS: 55540.173 CfA-H/H VOID 45369.4630 4679.4670 0 0
+OBS: 55541.265 CfA-H/H VOID 41462.3400 3877.3710 0 0
+OBS: 55542.197 CfA-H/H VOID 40766.8700 1910.4860 0 0
+OBS: 55566.205 CfA-H/H VOID 40928.7500 3350.5360 0 0
+OBS: 55567.209 CfA-H/H VOID 40770.5050 9225.2910 0 0
+OBS: 55569.202 CfA-H/H VOID 36222.5190 8196.2010 0 0
+OBS: 55570.200 CfA-H/H VOID 32894.8660 5256.5840 0 0
+OBS: 55571.196 CfA-H/H VOID 32148.5620 7274.3720 0 0
+OBS: 55572.190 CfA-H/H VOID 32307.9510 455.6580 0 0
+OBS: 55573.184 CfA-H/H VOID 30138.0210 2499.5220 0 0
+OBS: 55574.178 CfA-H/H VOID 27946.4990 2324.0500 0 0
+OBS: 55576.209 CfA-H/H VOID 26490.0770 2867.7210 0 0
+OBS: 55577.168 CfA-H/H VOID 24934.5270 1965.4420 0 0
+OBS: 55578.134 CfA-H/H VOID 24519.2460 1902.3460 0 0
+OBS: 55598.126 CfA-H/H VOID 12703.3290 2820.2900 0 0
+OBS: 55602.118 CfA-H/H VOID 13478.0470 3754.5370 0 0
+OBS: 55603.162 CfA-H/H VOID 13989.8810 3165.5410 0 0
+OBS: 55605.113 CfA-H/H VOID 12029.1190 2721.8730 0 0
+OBS: 55618.113 CfA-H/H VOID 4848.6090 774.8050 0 0
+END_PHOTOMETRY:
+END:
