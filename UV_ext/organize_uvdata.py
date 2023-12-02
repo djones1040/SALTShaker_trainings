@@ -1,4 +1,47 @@
 #!/usr/bin/env python
+import sys,glob,os
+from astropy.table import Table
+import shutil
+
+
+def add_spectrum_to_file(fname,spec_name):
+    with open(fname,'r') as f:
+        lines = f.readlines()
+    with open(fname,'r') as f:
+        dat = f.read()
+
+    if 'SPECTRUM_END:' not in dat:
+        lines.append('# =============================================\n')
+        lines.append('# =============================================\n')
+        lines.append('NSPECTRA: 1\n')
+        lines.append('\n')
+        lines.append('NVAR_SPEC: 5\n')
+        lines.append('VARNAMES_SPEC: LAMMIN LAMMAX  FLAM  FLAMERR SPECFLAG\n')
+        lines.append('\n')
+        lines.append('SPECTRUM_ID: 1\n')
+    else:
+        for i,line in enumerate(lines):
+            if line.startswith('NSPECTRA:'):
+                nspec = int(line.split()[-1])
+                lines[i] = line.replace(line.split()[-1],str(int(line.split()[-1])+1))
+                break
+   
+        lines.append('\n')
+        lines.append('SPECTRUM_ID: %i\n'%(nspec+1))
+
+    temp = Table.read(spec_name,format='ascii')
+    spectrum = Table.read(spec_name,format='ascii',names=['wave','flux','fluxerr'])
+    lines.append('SPECTRUM_MJD: %s\n'%spec_name[spec_name.find('_')+1:spec_name.rfind('.')])
+    lines.append('SPECTRUM_NLAM: %i\n'%len(spectrum))
+    lam_res = spectrum['wave'][1]-spectrum['wave'][0]
+
+    for row in spectrum:
+        lines.append('SPEC: %.3f %.3f %.6E %.6E %i\n'%(row['wave']-lam_res/2,row['wave']+lam_res/2,
+                                                         row['flux'],row['fluxerr'],1))
+    lines.append('SPECTRUM_END:\n')
+    with open(fname,'w') as f:
+        f.write(''.join(lines))
+
 
 _snidlist = ['2021J',
              '2000dk',
@@ -201,3 +244,40 @@ _snidlist = {'2021J':{'in_saltshaker_format':True,
                       'optical_spec_files':(),
                       'uv_spec_files':('sn2023gft_60078.21623377.flm'),
                       'filter_dict':{}}}
+
+for sn in _snidlist:
+    print(_snidlist[sn])
+    try:
+        new_fname = os.path.join('final_lcs',os.path.basename(_snidlist[sn]['lc_files']))
+    except:
+        continue
+    if _snidlist[sn]['in_saltshaker_format']:
+        try:
+            shutil.copyfile(_snidlist[sn]['lc_files'],new_fname)
+        except:
+            try:
+                _snidlist[sn]['lc_files'] = os.path.join('UVLC',_snidlist[sn]['lc_files'])
+                if isinstance(_snidlist[sn]['uv_spec_files'],str):
+                    _snidlist[sn]['uv_spec_files'] = [_snidlist[sn]['uv_spec_files']]
+                if isinstance(_snidlist[sn]['optical_spec_files'],str):
+                    _snidlist[sn]['optical_spec_files'] = [_snidlist[sn]['optical_spec_files']]
+                _snidlist[sn]['uv_spec_files'] = [os.path.join('UVspec',x) for x in _snidlist[sn]['uv_spec_files']]
+                _snidlist[sn]['optical_spec_files'] = [os.path.join('OptSpec',x) for x in _snidlist[sn]['optical_spec_files']]
+                new_fname = shutil.copyfile(_snidlist[sn]['lc_files'],new_fname)
+                shutil.copyfile(_snidlist[sn]['lc_files'],new_fname)
+            except:
+                continue
+            
+
+    else:
+        continue
+    for spec in _snidlist[sn]['uv_spec_files']:
+        print(spec)
+        try:
+            add_spectrum_to_file(new_fname,spec)
+        except:
+            continue
+        
+        
+            
+   
