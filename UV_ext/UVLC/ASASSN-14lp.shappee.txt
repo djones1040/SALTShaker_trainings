@@ -40,19 +40,8 @@
 #Name: J/ApJ/826/144/table1
 #Title: Photometric observations
 #---Details of Columns:
-    JD (d)      (F8.3)  Julian Date of observation; JD-2450000 [ucd=time.epoch]
-    Band        (a5)    Band used in the observation (u,g,r,i,V, UVM2, UVW2 or clear) [ucd=instr.setup;obs]
-    l_mag       (A1)    Limit flag on mag [ucd=meta.code.error]
-    mag (mag)   (F5.2)  [11.9/19] Observed magnitude in Band [ucd=phot.mag]
-    e_mag (mag) (F5.2)  [0.01/0.5]? Uncertainty in mag [ucd=stat.error;phot.mag]
-    Tel         (a10)   Telescope where observation was taken (1) [ucd=meta.id;instr.tel]
--------- ----- - ----- ----- ----------
-               l                       
-               _                       
-               m       e               
-               a mag   _mag            
-JD (d)   Band  g (mag) (mag) Tel       
--------- ----- - ----- ----- ----------
+
+JD Band mag dmag Tel       
 7001.906 UVW2    18.32  0.24 Swift
 7003.246 UVW2    17.58  0.16 Swift
 7003.767 UVW2    17.39  0.12 Swift

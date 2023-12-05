@@ -1,0 +1,237 @@
+SN_SED:       Hsiao07.dat
+BD17_SED:     bd_17d4708_stisnic_007.dat
+VEGA_SED:  alpha_lyr_stis_003.dat
+LAMBDA_RANGE: 2100 12600 
+OUTFILE:      kcor_uvext.fits
+
+# Start filters for VERSION = PS1s_CFA1_JRK07_DS16
+MAGSYSTEM:   BD17
+FILTSYSTEM:  COUNT
+FILTPATH:    $SNDATA_ROOT/filters/PS1/Pantheon/SNLS3-Landolt
+SURVEY: LOWZ
+FILTER:  Bessell-U/U          sux-shifted.dat_5A  9.72400
+FILTER:  Bessell-B/B          sb-shifted.dat_5A  9.90700
+FILTER:  Bessell-V/V          sv-shifted.dat_5A  9.46400
+FILTER:  Bessell-R/R          sr-shifted.dat_5A  9.16600
+FILTER:  Bessell-I/I          si-shifted.dat_5A  8.84600
+# Start filters for VERSION = PS1s_CFA3_KEPLERCAM_DS17
+MAGSYSTEM:   BD17
+FILTSYSTEM:  COUNT
+FILTPATH:    filters/SALT3TRAIN_K21_CfA4
+SURVEY: LOWZ,CFA3K
+FILTER:  CFA3K-U/f            Us_Keplercam.txt       9.724 
+FILTER:  CFA3K-B/h            cfa4_B_p1+modtran.dat  9.88605-0.0249 
+FILTER:  CFA3K-V/j            cfa4_V_p1+modtran.dat  9.47432-0.005700000000000001 
+FILTER:  CFA3K-r/k            cfa4_r_p1+modtran.dat  9.35252+0.007
+FILTER:  CFA3K-i/l            cfa4_i_p1+modtran.dat  9.25465+0.0049 
+# Start filters for VERSION = PS1s_CFA3_4SHOOTER2_DS17
+MAGSYSTEM:   BD17
+FILTSYSTEM:  COUNT
+FILTPATH:   filters/SALT3TRAIN_K21_CfA3S
+SURVEY:  LOWZ,CFA3S
+FILTER:  CFA3S-U/a            Us_4Shooter2.txt       9.7240 
+FILTER:  CFA3S-B/b            SNLS3_4shooter2_B.dat  9.87400-0.0377
+FILTER:  CFA3S-V/c            SNLS3_4shooter2_V.dat  9.47900-0.0087 
+FILTER:  CFA3S-R/d            SNLS3_4shooter2_R.dat  9.15500-0.013699999999999999 
+FILTER:  CFA3S-I/e            SNLS3_4shooter2_I.dat  8.85100-0.004999999999999999
+# Start filters for VERSION = PS1s_CSPDR2_V_DS17
+MAGSYSTEM:   BD17
+FILTSYSTEM:  COUNT
+FILTPATH:  $SNDATA_ROOT/filters/CSP/CSP_TAMU_20180316
+SURVEY:  LOWZ,CSP
+FILTER: CSP-u/t  u_tel_ccd_atm_ext_1.2.dat       10.514
+FILTER: CSP-g/A  g_tel_ccd_atm_ext_1.2.dat       9.64806
+FILTER: CSP-r/L  r_tel_ccd_atm_ext_1.2.dat       9.35860
+FILTER: CSP-i/C  i_tel_ccd_atm_ext_1.2.dat       9.24100
+FILTER: CSP-B/u  B_tel_ccd_atm_ext_1.2.dat           9.88100
+FILTER: CSP-n/x  V_LC9844_tel_ccd_atm_ext_1.2.dat    9.472
+FILTER: CSP-o/v  V_LC3009_tel_ccd_atm_ext_1.2.dat    9.472
+FILTER: CSP-m/w  V_LC3014_tel_ccd_atm_ext_1.2.dat    9.472
+
+# Start filters for VERSION = PS1s_CFA3_4SHOOTER2_DS17
+MAGSYSTEM:   BD17
+FILTSYSTEM:  COUNT
+FILTPATH:   PS1/Pantheon/CFA3_native
+SURVEY: CFA3S
+FILTER:  CFA3S-U/a            SNLS3_4shooter2_U.dat  9.6930 
+FILTER:  CFA3S-B/b            SNLS3_4shooter2_B.dat  9.87400-0.0377
+FILTER:  CFA3S-V/c            SNLS3_4shooter2_V.dat  9.47900-0.0087 
+FILTER:  CFA3S-R/d            SNLS3_4shooter2_R.dat  9.15500-0.013699999999999999 
+FILTER:  CFA3S-I/e            SNLS3_4shooter2_I.dat  8.85100-0.004999999999999999
+# Start filters for VERSION = PS1s_CFA3_KEPLERCAM_DS17
+MAGSYSTEM:   BD17
+FILTSYSTEM:  COUNT
+FILTPATH:    PS1/Pantheon/PS1_CFA4
+SURVEY: CFA3K
+FILTER:  CFA41-U/f            cfa4_U_p1.dat  9.724 
+FILTER:  CFA41-B/g            cfa4_B_p1+modtran.dat  9.88605-0.0249 
+FILTER:  CFA41-V/h            cfa4_V_p1+modtran.dat  9.47432-0.005700000000000001 
+FILTER:  CFA41-r/i            cfa4_r_p1+modtran.dat  9.35252+0.007
+FILTER:  CFA41-i/j            cfa4_i_p1+modtran.dat  9.25465+0.0049 
+# Start filters for VERSION = PS1s_CFA4_p1_DS17
+SURVEY: CFA4p1
+FILTER:  CFA41-U/k            cfa4_U_p1.dat  9.724 
+FILTER:  CFA41-B/l            cfa4_B_p1+modtran.dat  9.88605-0.0057  
+FILTER:  CFA41-V/m            cfa4_V_p1+modtran.dat  9.47432-0.0005000000000000004 
+FILTER:  CFA41-r/n            cfa4_r_p1+modtran.dat  9.35252+0.0029 
+FILTER:  CFA41-i/o            cfa4_i_p1+modtran.dat  9.25465+0.004799999999999999 
+# Start filters for VERSION = PS1s_CFA4_p2_DS17
+SURVEY: CFA4p2
+FILTER:  CFA42-B/p            cfa4_B_p2+modtran.dat  9.86124+0.0278 
+FILTER:  CFA42-V/q            cfa4_V_p2+modtran.dat  9.47432+0.0052 
+FILTER:  CFA42-r/r            cfa4_r_p2+modtran.dat  9.35730+0.01 
+FILTER:  CFA42-i/s            cfa4_i_p2+modtran.dat  9.25521+0.010199999999999999 
+# Start filters for VERSION = PS1s_CFA1_JRK07_DS16
+MAGSYSTEM:   BD17
+FILTSYSTEM:  COUNT
+FILTPATH:    PS1/Pantheon/SNLS3-Landolt
+SURVEY: CFA1
+FILTER:  Bessell-U/B          sux-shifted.dat_5A  9.72400 
+FILTER:  Bessell-B/C          sb-shifted.dat_5A  9.90700+0.0 
+FILTER:  Bessell-V/D          sv-shifted.dat_5A  9.46400+0.0
+FILTER:  Bessell-R/E          sr-shifted.dat_5A  9.16600+0.0 
+FILTER:  Bessell-I/F          si-shifted.dat_5A  8.84600+0.0
+# Start filters for VERSION = PS1s_CFA2_JRK07_DS16
+SURVEY: CFA2
+FILTER:  Bessell-U/G          sux-shifted.dat_5A  9.72400
+FILTER:  Bessell-B/H          sb-shifted.dat_5A  9.90700+0.0 
+FILTER:  Bessell-V/I          sv-shifted.dat_5A  9.46400+0.0 
+FILTER:  Bessell-R/J          sr-shifted.dat_5A  9.16600+0.0 
+FILTER:  Bessell-I/K          si-shifted.dat_5A  8.84600+0.0 
+# Start filters for VERSION = PS1s_CSPDR2_V_DS16
+MAGSYSTEM:   BD17
+FILTSYSTEM:  COUNT
+FILTPATH:    PS1/PS1s_RS14/CSP_Str11
+SURVEY: CSP
+FILTER:  CSP-u/t              u_texas_WLcorr_atm.txt  10.51952
+FILTER:  CSP-B/u              B_texas_WLcorr_atm.txt  9.87643
+FILTER:  CSP-o/v              V_LC3009_texas_WLcorr_atm.txt  9.47663
+FILTER:  CSP-m/w              V_LC3014_texas_WLcorr_atm.txt  9.47128
+FILTER:  CSP-n/x              V_LC9844_texas_WLcorr_atm.txt  9.47748
+FILTER:  CSP-g/y              g_texas_WLcorr_atm.txt  9.64406
+FILTER:  CSP-r/z              r_texas_WLcorr_atm.txt  9.35160
+FILTER:  CSP-i/A              i_texas_WLcorr_atm.txt  9.25000
+
+
+# specify filters :
+MAGSYSTEM: BD17
+FILTSYSTEM: COUNT   ("ENERGY" => Trans -> Trans/lambda)
+FILTPATH: $PS1_USERS/dscolnic/Excalibur_dillon/filters/KAIT_2018
+SURVEY: KAIT
+FILTER: KAIT3-A   B_kait3.txt   9.882-0.0019
+FILTER: KAIT3-B   V_kait3.txt   9.478+0.0051
+FILTER: KAIT3-C   R_kait3_cut.txt   9.185-0.0006999999999999999
+FILTER: KAIT3-D   I_kait3.txt   8.845+0.0002000000000000001
+FILTER: nickel1-I   B_nickel1.txt   9.866+0.0039 
+FILTER: nickel1-J   V_nickel1.txt   9.487+0.0039
+FILTER: nickel1-K   R_nickel1.txt   9.193-0.0011999999999999997
+FILTER: nickel1-L   I_nickel1.txt   8.819+0.0017
+FILTER: KAIT4-E   B_kait4.txt      9.848-0.00039999999999999975
+FILTER: KAIT4-F   V_kait4.txt      9.487+0.0055
+FILTER: KAIT4-G   R_kait4.txt      9.198-0.0014
+FILTER: KAIT4-H   I_kait4.txt      8.855-0.00039999999999999975
+FILTER: nickel2-M   B_nickel2.txt   9.927-0.0435 
+FILTER: nickel2-N   V_nickel2.txt   9.500+0.0053
+FILTER: nickel2-O   R_nickel2.txt   9.193-0.0033
+FILTER: nickel2-P   I_nickel2.txt   8.819+0.0291
+FILTER: KAIT1-a   B_kait1_shifted.txt   9.865+0.001
+FILTER: KAIT1-b   V_kait1_shifted.txt   9.476+0.0046
+FILTER: KAIT1-c   R_kait1_shifted.txt   9.112-0.0006
+FILTER: KAIT1-d   I_kait1_shifted.txt   8.802+0.0048000000000000004
+FILTER: KAIT2-e   B_kait2_shifted.txt   9.869-0.002
+FILTER: KAIT2-f   V_kait2_shifted.txt   9.478+0.0059
+FILTER: KAIT2-g   R_kait2_shifted.txt   9.184-0.0007999999999999999
+FILTER: KAIT2-h   I_kait2_shifted.txt   8.842-0.0002999999999999999
+
+
+MAGSYSTEM: AB 
+FILTSYSTEM: COUNT
+FILTPATH:   $SNDATA_ROOT/filters/ATLAS
+SURVEY:  LOWZ   # use generic LOWZ
+FILTER:  ATLAS-cyan/c    atlas-c.txt 0.0 c
+FILTER:  ATLAS-o    atlas-o.txt 0.0 a
+FILTER:  cyan-ATLAS    atlas-c.txt 0.0 c
+FILTER:  orange-ATLAS    atlas-o.txt 0.0 a
+FILTER:  ATLAS-orange    atlas-o.txt 0.0 a
+FILTER:  ATLAS-orange/a    atlas-o.txt 0.0 a
+
+MAGSYSTEM: AB
+FILTSYSTEM: COUNT
+FILTPATH:   $SNDATA_ROOT/filters/ZTF
+SURVEY:  YSE_ZTF,SIRAH
+FILTER:  ZTF-G     ztf-g.txt 0.0 G
+FILTER:  ZTF-G/X     ztf-g.txt 0.0 G
+FILTER:  ZTF-R     ztf-r.txt 0.0 R
+FILTER:  ZTF-R/Y     ztf-r.txt 0.0 R
+FILTER:  ZTF-I     ztf-i.txt 0.0 I
+FILTER:  ZTF-g     ztf-g.txt 0.0 G
+FILTER:  ZTF-g/X     ztf-g.txt 0.0 G
+FILTER:  ZTF-r     ztf-r.txt 0.0 R
+FILTER:  ZTF-r/Y     ztf-r.txt 0.0 R
+FILTER:  ZTF-i     ztf-i.txt 0.0 I
+
+
+MAGSYSTEM:  AB
+FILTSYSTEM: COUNT
+FILTPATH: filters/SALT3TRAIN_K21_PS1
+SURVEY: PS1MD
+FILTER: PS1-g   g_filt_revised.txt -0.011-0.0232
+FILTER: PS1-r   r_filt_tonry.txt   -0.012-0.0257
+FILTER: PS1-i   i_filt_tonry.txt   -0.008-0.0184
+FILTER: PS1-z   z_filt_tonry.txt   -0.008-0.0129
+FILTER: PS1-y   y_filt_tonry.txt   0.0
+
+MAGSYSTEM:   BD17
+FILTSYSTEM:  COUNT
+FILTPATH: /project2/rkessler/SURVEYS/PS1MD/ROOT/filters/SWIFT
+SURVEY: SWIFTNEW
+FILTER: UVOT-U   U_UVOT_rev.txt   0.0
+FILTER: UVOT-B   B_UVOT_rev.txt   0.0-0.0125
+FILTER: UVOT-V   V_UVOT_rev.txt   0.0+0.026799999999999997
+FILTER: UVOT-X   U_UVOT_rev.txt   0.0
+FILTER: UVOT-N   U_UVOT_rev.txt   0.0
+FILTER: UVOT-W   U_UVOT_rev.txt   0.0
+
+MAGSYSTEM:   BD17
+FILTSYSTEM:  COUNT
+FILTPATH:  filters/SALT3TRAIN_P21/SALT3TRAIN_P21_CfANIR
+SURVEY:    LOWZ
+FILTER:  CfA-J/J              2MASS_PAIRITEL_J.dat    8.4296
+FILTER:  CfA-H/H              2MASS_PAIRITEL_H.dat    8.1162
+FILTER:  CfA-Ks/K             2MASS_PAIRITEL_Ks.dat   8.0854
+
+MAGSYSTEM:  BD17
+FILTSYSTEM: COUNT
+FILTPATH:   filters/SALT3TRAIN_P21/SALT3TRAIN_P21_CSPNIR
+SURVEY: CSP
+FILTER: CSP-Y_RC/C      Swope/Y_SWO_TAM_scan_atm.dat      8.6323
+FILTER: CSP-J_RC1/E     Swope/Jrc1_SWO_TAM_scan_atm.dat   8.4191
+FILTER: CSP-J_RC2/F     Swope/Jrc2_SWO_TAM_scan_atm.dat   8.4256
+FILTER: CSP-H_RC/G      Swope/H_SWO_TAM_scan_atm.dat      8.1254
+
+MAGSYSTEM: BD17
+FILTSYSTEM: COUNT
+FILTPATH:  filters/SALT3TRAIN_P21/SALT3TRAIN_P21_USNO
+SURVEY:    LOWZ
+FILTER:     USNO-u/Z  usno_u.res 10.5141
+FILTER:     USNO-r/r  usno_r.res 9.3483
+FILTER:     USNO-i/i  usno_i.res 9.2625
+
+MAGSYSTEM:  AB
+FILTSYSTEM: COUNT
+FILTPATH:   $SNDATA_ROOT/filters/HST/HST_Candles
+SURVEY:     HST
+FILTER:   WFC3_IR_F098M-L      WFC3_IR_F098M.dat     0.000  L
+FILTER:   WFC3_IR_F105W-Y      WFC3_IR_F105W.dat     0.000  Y
+FILTER:   WFC3_IR_F110W-M      WFC3_IR_F110W.dat     0.000  M
+FILTER:   WFC3_IR_F125W-J      WFC3_IR_F125W.dat     0.000  J
+FILTER:   WFC3_IR_F140W-N      WFC3_IR_F140W.dat     0.000  N
+FILTER:   WFC3_IR_F160W-H      WFC3_IR_F160W.dat     0.000  H
+
+MAGSYSTEM: VEGA     (define mag system for filters below)
+FILTSYSTEM: COUNT
+SURVEY: LOWZ
+FILTPATH: filters/SALT3TRAIN_P21/SALT3TRAIN_P21_UKIRT
+FILTER: UKIRT-Y/y   Y_WFCAM.dat   0.0  (name, file, zero-point)
+FILTER: UKIRT-J/j   J_WFCAM.dat   0.0
+FILTER: UKIRT-H/h   H_WFCAM.dat   0.0
