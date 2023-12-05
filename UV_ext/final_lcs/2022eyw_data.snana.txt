@@ -119,67 +119,62 @@ OBS:      59761.286  ZTF-g  3002.877  192.183  18.806  0.069  None  P48  ZTF-Cam
 OBS:      59763.208  ZTF-g  3111.941  208.071  18.767  0.073  None  P48  ZTF-Cam  None
 OBS:      59763.286  ZTF-r  6196.008  375.600  18.020  0.066  None  P48  ZTF-Cam  None
 OBS:      59768.283  ZTF-g  2655.061  305.343  18.940  0.125  None  P48  ZTF-Cam  None
-OBS:      59631.517  orange-ATLAS  -0.157  0.209  nan  -1.448  None  ATLAS  HKO  None
-OBS:      59633.523  orange-ATLAS  0.089  0.238  20.536  5.000  None  ATLAS  HKO  None
-OBS:      59635.585  orange-ATLAS  0.424  0.239  20.156  5.000  None  ATLAS  HKO  None
-OBS:      59637.482  orange-ATLAS  -0.226  0.191  nan  -0.917  None  ATLAS  HKO  None
-OBS:      59639.491  cyan-ATLAS  -0.007  0.174  nan  -27.330  None  ATLAS  HKO  None
-OBS:      59639.500  cyan-ATLAS  -0.109  0.363  nan  -3.619  None  ATLAS  HKO  Bad
-OBS:      59641.519  orange-ATLAS  -0.356  0.202  nan  -0.617  None  ATLAS  HKO  None
-OBS:      59643.527  cyan-ATLAS  0.057  0.204  20.735  5.000  None  ATLAS  HKO  None
-OBS:      59645.478  orange-ATLAS  -0.357  0.277  nan  -0.842  None  ATLAS  HKO  None
-OBS:      59647.492  cyan-ATLAS  -0.545  0.488  nan  -0.972  None  ATLAS  HKO  None
-OBS:      59647.545  cyan-ATLAS  -0.088  0.310  nan  -3.808  None  ATLAS  HKO  None
-OBS:      59649.513  orange-ATLAS  -0.515  0.230  nan  -0.485  None  ATLAS  HKO  None
-OBS:      59653.465  orange-ATLAS  -0.318  0.513  nan  -1.754  None  ATLAS  HKO  None
-OBS:      59655.430  orange-ATLAS  -3.853  2.041  nan  -0.575  None  ATLAS  HKO  None
-OBS:      59657.486  orange-ATLAS  -0.458  0.684  nan  -1.623  None  ATLAS  HKO  None
-OBS:      59659.506  orange-ATLAS  -0.294  0.363  nan  -1.341  None  ATLAS  HKO  None
-OBS:      59665.465  orange-ATLAS  37.873  0.384  16.354  0.011  None  ATLAS  HKO  None
-OBS:      59671.465  cyan-ATLAS  83.549  0.526  15.495  0.007  None  ATLAS  HKO  None
-OBS:      59671.515  cyan-ATLAS  81.656  0.565  15.520  0.008  None  ATLAS  HKO  None
-OBS:      59681.443  orange-ATLAS  92.949  0.557  15.379  0.007  None  ATLAS  HKO  None
-OBS:      59693.351  orange-ATLAS  52.753  0.533  15.994  0.011  None  ATLAS  HKO  None
-OBS:      59695.415  cyan-ATLAS  24.934  0.293  16.808  0.013  None  ATLAS  HKO  None
-OBS:      59697.470  orange-ATLAS  43.062  0.365  16.215  0.009  None  ATLAS  HKO  None
-OBS:      59699.382  cyan-ATLAS  20.830  0.412  17.003  0.021  None  ATLAS  HKO  None
-OBS:      59709.363  orange-ATLAS  27.500  0.380  16.702  0.015  None  ATLAS  HKO  None
-OBS:      59711.378  orange-ATLAS  26.296  0.783  16.750  0.032  None  ATLAS  HKO  None
-OBS:      59713.382  orange-ATLAS  24.131  0.478  16.844  0.022  None  ATLAS  HKO  None
-OBS:      59715.390  orange-ATLAS  23.623  0.446  16.867  0.020  None  ATLAS  HKO  None
-OBS:      59717.337  orange-ATLAS  20.781  0.518  17.006  0.027  None  ATLAS  HKO  None
-OBS:      59721.364  orange-ATLAS  20.321  0.224  17.030  0.012  None  ATLAS  HKO  None
-OBS:      59723.353  cyan-ATLAS  12.333  0.181  17.572  0.016  None  ATLAS  HKO  None
-OBS:      59725.329  orange-ATLAS  18.299  0.217  17.144  0.013  None  ATLAS  HKO  None
-OBS:      59727.320  cyan-ATLAS  11.073  0.240  17.689  0.024  None  ATLAS  HKO  None
-OBS:      59729.370  orange-ATLAS  17.522  0.348  17.191  0.022  None  ATLAS  HKO  None
-OBS:      59731.379  cyan-ATLAS  10.640  0.225  17.733  0.023  None  ATLAS  HKO  None
-OBS:      59733.322  orange-ATLAS  15.411  0.262  17.330  0.018  None  ATLAS  HKO  None
-OBS:      59735.302  orange-ATLAS  15.077  0.253  17.354  0.018  None  ATLAS  HKO  None
-OBS:      59737.339  orange-ATLAS  14.098  0.240  17.427  0.018  None  ATLAS  HKO  None
-OBS:      59739.354  orange-ATLAS  13.684  0.297  17.459  0.024  None  ATLAS  HKO  None
-OBS:      59741.301  orange-ATLAS  13.351  0.291  17.486  0.024  None  ATLAS  HKO  None
-OBS:      59745.307  orange-ATLAS  12.441  0.603  17.563  0.053  None  ATLAS  HKO  None
-OBS:      59749.300  orange-ATLAS  10.706  0.393  17.726  0.040  None  ATLAS  HKO  None
-OBS:      59751.282  cyan-ATLAS  7.026  0.198  18.183  0.031  None  ATLAS  HKO  None
-OBS:      59753.325  orange-ATLAS  9.598  0.285  17.845  0.032  None  ATLAS  HKO  None
-OBS:      59755.320  cyan-ATLAS  7.023  0.409  18.184  0.063  None  ATLAS  HKO  None
-OBS:      59757.270  orange-ATLAS  8.783  0.308  17.941  0.038  None  ATLAS  HKO  None
-OBS:      59761.311  orange-ATLAS  5.700  0.799  18.410  0.152  None  ATLAS  HKO  Bad
-OBS:      59765.267  orange-ATLAS  8.386  0.316  17.991  0.041  None  ATLAS  HKO  None
-OBS:      59767.267  orange-ATLAS  7.981  0.362  18.045  0.049  None  ATLAS  HKO  None
-OBS:      59769.298  orange-ATLAS  9.966  0.725  17.804  0.079  None  ATLAS  HKO  None
-OBS:      59771.289  orange-ATLAS  7.011  1.346  18.186  0.208  None  ATLAS  HKO  None
-OBS:      59773.261  orange-ATLAS  6.218  0.529  18.316  0.092  None  ATLAS  HKO  None
+OBS:      59631.517  ATLAS-orange/o  -0.157  0.209  nan  -1.448  None  ATLAS  HKO  None
+OBS:      59633.523  ATLAS-orange/o  0.089  0.238  20.536  5.000  None  ATLAS  HKO  None
+OBS:      59635.585  ATLAS-orange/o  0.424  0.239  20.156  5.000  None  ATLAS  HKO  None
+OBS:      59637.482  ATLAS-orange/o  -0.226  0.191  nan  -0.917  None  ATLAS  HKO  None
+OBS:      59639.491  ATLAS-cyan/c  -0.007  0.174  nan  -27.330  None  ATLAS  HKO  None
+OBS:      59639.500  ATLAS-cyan/c  -0.109  0.363  nan  -3.619  None  ATLAS  HKO  Bad
+OBS:      59641.519  ATLAS-orange/o  -0.356  0.202  nan  -0.617  None  ATLAS  HKO  None
+OBS:      59643.527  ATLAS-cyan/c  0.057  0.204  20.735  5.000  None  ATLAS  HKO  None
+OBS:      59645.478  ATLAS-orange/o  -0.357  0.277  nan  -0.842  None  ATLAS  HKO  None
+OBS:      59647.492  ATLAS-cyan/c  -0.545  0.488  nan  -0.972  None  ATLAS  HKO  None
+OBS:      59647.545  ATLAS-cyan/c  -0.088  0.310  nan  -3.808  None  ATLAS  HKO  None
+OBS:      59649.513  ATLAS-orange/o  -0.515  0.230  nan  -0.485  None  ATLAS  HKO  None
+OBS:      59653.465  ATLAS-orange/o  -0.318  0.513  nan  -1.754  None  ATLAS  HKO  None
+OBS:      59655.430  ATLAS-orange/o  -3.853  2.041  nan  -0.575  None  ATLAS  HKO  None
+OBS:      59657.486  ATLAS-orange/o  -0.458  0.684  nan  -1.623  None  ATLAS  HKO  None
+OBS:      59659.506  ATLAS-orange/o  -0.294  0.363  nan  -1.341  None  ATLAS  HKO  None
+OBS:      59665.465  ATLAS-orange/o  37.873  0.384  16.354  0.011  None  ATLAS  HKO  None
+OBS:      59671.465  ATLAS-cyan/c  83.549  0.526  15.495  0.007  None  ATLAS  HKO  None
+OBS:      59671.515  ATLAS-cyan/c  81.656  0.565  15.520  0.008  None  ATLAS  HKO  None
+OBS:      59681.443  ATLAS-orange/o  92.949  0.557  15.379  0.007  None  ATLAS  HKO  None
+OBS:      59693.351  ATLAS-orange/o  52.753  0.533  15.994  0.011  None  ATLAS  HKO  None
+OBS:      59695.415  ATLAS-cyan/c  24.934  0.293  16.808  0.013  None  ATLAS  HKO  None
+OBS:      59697.470  ATLAS-orange/o  43.062  0.365  16.215  0.009  None  ATLAS  HKO  None
+OBS:      59699.382  ATLAS-cyan/c  20.830  0.412  17.003  0.021  None  ATLAS  HKO  None
+OBS:      59709.363  ATLAS-orange/o  27.500  0.380  16.702  0.015  None  ATLAS  HKO  None
+OBS:      59711.378  ATLAS-orange/o  26.296  0.783  16.750  0.032  None  ATLAS  HKO  None
+OBS:      59713.382  ATLAS-orange/o  24.131  0.478  16.844  0.022  None  ATLAS  HKO  None
+OBS:      59715.390  ATLAS-orange/o  23.623  0.446  16.867  0.020  None  ATLAS  HKO  None
+OBS:      59717.337  ATLAS-orange/o  20.781  0.518  17.006  0.027  None  ATLAS  HKO  None
+OBS:      59721.364  ATLAS-orange/o  20.321  0.224  17.030  0.012  None  ATLAS  HKO  None
+OBS:      59723.353  ATLAS-cyan/c  12.333  0.181  17.572  0.016  None  ATLAS  HKO  None
+OBS:      59725.329  ATLAS-orange/o  18.299  0.217  17.144  0.013  None  ATLAS  HKO  None
+OBS:      59727.320  ATLAS-cyan/c  11.073  0.240  17.689  0.024  None  ATLAS  HKO  None
+OBS:      59729.370  ATLAS-orange/o  17.522  0.348  17.191  0.022  None  ATLAS  HKO  None
+OBS:      59731.379  ATLAS-cyan/c  10.640  0.225  17.733  0.023  None  ATLAS  HKO  None
+OBS:      59733.322  ATLAS-orange/o  15.411  0.262  17.330  0.018  None  ATLAS  HKO  None
+OBS:      59735.302  ATLAS-orange/o  15.077  0.253  17.354  0.018  None  ATLAS  HKO  None
+OBS:      59737.339  ATLAS-orange/o  14.098  0.240  17.427  0.018  None  ATLAS  HKO  None
+OBS:      59739.354  ATLAS-orange/o  13.684  0.297  17.459  0.024  None  ATLAS  HKO  None
+OBS:      59741.301  ATLAS-orange/o  13.351  0.291  17.486  0.024  None  ATLAS  HKO  None
+OBS:      59745.307  ATLAS-orange/o  12.441  0.603  17.563  0.053  None  ATLAS  HKO  None
+OBS:      59749.300  ATLAS-orange/o  10.706  0.393  17.726  0.040  None  ATLAS  HKO  None
+OBS:      59751.282  ATLAS-cyan/c  7.026  0.198  18.183  0.031  None  ATLAS  HKO  None
+OBS:      59753.325  ATLAS-orange/o  9.598  0.285  17.845  0.032  None  ATLAS  HKO  None
+OBS:      59755.320  ATLAS-cyan/c  7.023  0.409  18.184  0.063  None  ATLAS  HKO  None
+OBS:      59757.270  ATLAS-orange/o  8.783  0.308  17.941  0.038  None  ATLAS  HKO  None
+OBS:      59761.311  ATLAS-orange/o  5.700  0.799  18.410  0.152  None  ATLAS  HKO  Bad
+OBS:      59765.267  ATLAS-orange/o  8.386  0.316  17.991  0.041  None  ATLAS  HKO  None
+OBS:      59767.267  ATLAS-orange/o  7.981  0.362  18.045  0.049  None  ATLAS  HKO  None
+OBS:      59769.298  ATLAS-orange/o  9.966  0.725  17.804  0.079  None  ATLAS  HKO  None
+OBS:      59771.289  ATLAS-orange/o  7.011  1.346  18.186  0.208  None  ATLAS  HKO  None
+OBS:      59773.261  ATLAS-orange/o  6.218  0.529  18.316  0.092  None  ATLAS  HKO  None
 # END: 
 # =============================================
 # =============================================
 NSPECTRA: 2
-
-NVAR_SPEC: 5
-VARNAMES_SPEC: LAMMIN LAMMAX  FLAM  FLAMERR SPECFLAG
-
-SPECTRUM_ID: 1
 
 SPECTRUM_ID: 2
 SPECTRUM_MJD: 59681.669229965

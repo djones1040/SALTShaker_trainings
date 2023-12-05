@@ -356,11 +356,6 @@ END:# =============================================
 # =============================================
 NSPECTRA: 2
 
-NVAR_SPEC: 5
-VARNAMES_SPEC: LAMMIN LAMMAX  FLAM  FLAMERR SPECFLAG
-
-SPECTRUM_ID: 1
-
 SPECTRUM_ID: 2
 SPECTRUM_MJD: 59323.941822395005
 SPECTRUM_NLAM: 5536

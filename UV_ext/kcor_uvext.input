@@ -134,14 +134,6 @@ FILTER: nickel2-M   B_nickel2.txt   9.927-0.0435
 FILTER: nickel2-N   V_nickel2.txt   9.500+0.0053
 FILTER: nickel2-O   R_nickel2.txt   9.193-0.0033
 FILTER: nickel2-P   I_nickel2.txt   8.819+0.0291
-FILTER: KAIT1-a   B_kait1_shifted.txt   9.865+0.001
-FILTER: KAIT1-b   V_kait1_shifted.txt   9.476+0.0046
-FILTER: KAIT1-c   R_kait1_shifted.txt   9.112-0.0006
-FILTER: KAIT1-d   I_kait1_shifted.txt   8.802+0.0048000000000000004
-FILTER: KAIT2-e   B_kait2_shifted.txt   9.869-0.002
-FILTER: KAIT2-f   V_kait2_shifted.txt   9.478+0.0059
-FILTER: KAIT2-g   R_kait2_shifted.txt   9.184-0.0007999999999999999
-FILTER: KAIT2-h   I_kait2_shifted.txt   8.842-0.0002999999999999999
 
 
 MAGSYSTEM: AB 
@@ -149,26 +141,14 @@ FILTSYSTEM: COUNT
 FILTPATH:   $SNDATA_ROOT/filters/ATLAS
 SURVEY:  LOWZ   # use generic LOWZ
 FILTER:  ATLAS-cyan/c    atlas-c.txt 0.0 c
-FILTER:  ATLAS-o    atlas-o.txt 0.0 a
-FILTER:  cyan-ATLAS    atlas-c.txt 0.0 c
-FILTER:  orange-ATLAS    atlas-o.txt 0.0 a
-FILTER:  ATLAS-orange    atlas-o.txt 0.0 a
-FILTER:  ATLAS-orange/a    atlas-o.txt 0.0 a
+FILTER:  ATLAS-orange/o    atlas-o.txt 0.0 a
 
 MAGSYSTEM: AB
 FILTSYSTEM: COUNT
 FILTPATH:   $SNDATA_ROOT/filters/ZTF
 SURVEY:  YSE_ZTF,SIRAH
-FILTER:  ZTF-G     ztf-g.txt 0.0 G
-FILTER:  ZTF-G/X     ztf-g.txt 0.0 G
-FILTER:  ZTF-R     ztf-r.txt 0.0 R
-FILTER:  ZTF-R/Y     ztf-r.txt 0.0 R
-FILTER:  ZTF-I     ztf-i.txt 0.0 I
 FILTER:  ZTF-g     ztf-g.txt 0.0 G
-FILTER:  ZTF-g/X     ztf-g.txt 0.0 G
 FILTER:  ZTF-r     ztf-r.txt 0.0 R
-FILTER:  ZTF-r/Y     ztf-r.txt 0.0 R
-FILTER:  ZTF-i     ztf-i.txt 0.0 I
 
 
 MAGSYSTEM:  AB
@@ -192,46 +172,12 @@ FILTER: UVOT-X   U_UVOT_rev.txt   0.0
 FILTER: UVOT-N   U_UVOT_rev.txt   0.0
 FILTER: UVOT-W   U_UVOT_rev.txt   0.0
 
-MAGSYSTEM:   BD17
-FILTSYSTEM:  COUNT
-FILTPATH:  filters/SALT3TRAIN_P21/SALT3TRAIN_P21_CfANIR
-SURVEY:    LOWZ
-FILTER:  CfA-J/J              2MASS_PAIRITEL_J.dat    8.4296
-FILTER:  CfA-H/H              2MASS_PAIRITEL_H.dat    8.1162
-FILTER:  CfA-Ks/K             2MASS_PAIRITEL_Ks.dat   8.0854
-
-MAGSYSTEM:  BD17
-FILTSYSTEM: COUNT
-FILTPATH:   filters/SALT3TRAIN_P21/SALT3TRAIN_P21_CSPNIR
-SURVEY: CSP
-FILTER: CSP-Y_RC/C      Swope/Y_SWO_TAM_scan_atm.dat      8.6323
-FILTER: CSP-J_RC1/E     Swope/Jrc1_SWO_TAM_scan_atm.dat   8.4191
-FILTER: CSP-J_RC2/F     Swope/Jrc2_SWO_TAM_scan_atm.dat   8.4256
-FILTER: CSP-H_RC/G      Swope/H_SWO_TAM_scan_atm.dat      8.1254
 
 MAGSYSTEM: BD17
 FILTSYSTEM: COUNT
 FILTPATH:  filters/SALT3TRAIN_P21/SALT3TRAIN_P21_USNO
 SURVEY:    LOWZ
-FILTER:     USNO-u/Z  usno_u.res 10.5141
 FILTER:     USNO-r/r  usno_r.res 9.3483
 FILTER:     USNO-i/i  usno_i.res 9.2625
 
-MAGSYSTEM:  AB
-FILTSYSTEM: COUNT
-FILTPATH:   $SNDATA_ROOT/filters/HST/HST_Candles
-SURVEY:     HST
-FILTER:   WFC3_IR_F098M-L      WFC3_IR_F098M.dat     0.000  L
-FILTER:   WFC3_IR_F105W-Y      WFC3_IR_F105W.dat     0.000  Y
-FILTER:   WFC3_IR_F110W-M      WFC3_IR_F110W.dat     0.000  M
-FILTER:   WFC3_IR_F125W-J      WFC3_IR_F125W.dat     0.000  J
-FILTER:   WFC3_IR_F140W-N      WFC3_IR_F140W.dat     0.000  N
-FILTER:   WFC3_IR_F160W-H      WFC3_IR_F160W.dat     0.000  H
 
-MAGSYSTEM: VEGA     (define mag system for filters below)
-FILTSYSTEM: COUNT
-SURVEY: LOWZ
-FILTPATH: filters/SALT3TRAIN_P21/SALT3TRAIN_P21_UKIRT
-FILTER: UKIRT-Y/y   Y_WFCAM.dat   0.0  (name, file, zero-point)
-FILTER: UKIRT-J/j   J_WFCAM.dat   0.0
-FILTER: UKIRT-H/h   H_WFCAM.dat   0.0

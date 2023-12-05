@@ -3,8 +3,14 @@ import sys,glob,os
 from astropy.table import Table
 import shutil
 import numpy as np
-import sncosmo
-import matplotlib.pyplot as plt
+#import sncosmo
+#import matplotlib.pyplot as plt
+
+filt_remove = ['CfA-J/J','CfA-J/j','CfA-K/K','CfA-K/k','CfA-H/H','CfA-H/h','CSP-Y_RC/C',
+                   'CSP-J_RC1/E','CSP-J_RC2/F','CSP-H_RC/G','WFC3_IR','UKIRT']
+global_swap = {'ZTF-G/X':'ZTF-g','ZTF-g/X':'ZTF-g','ZTF-G':'ZTF-g','ZTF-R/Y':'ZTF-r','ZTF-R':'ZTF-r','ZTF-r/Y':'ZTF-r',
+                   'ZTF-I':'ZTF-i','cyan-ATLAS':'ATLAS-cyan/c','orange-ATLAS':'ATLAS-orange/o','ATLAS-orange':'ATLAS-orange/o',
+                   'ATLAS-o':'ATLAS-orange/o','ATLAS-orange/a':'ATLAS-orange/o'}
 
 def add_spectrum_to_file(fname,spec_name,filt_dict=None):
     with open(fname,'r') as f:
@@ -23,6 +29,7 @@ def add_spectrum_to_file(fname,spec_name,filt_dict=None):
         lines.append('SPECTRUM_ID: 1\n')
         nspec = 0
     if True:
+        keep = []
         print(filt_dict)
         for i,line in enumerate(lines):
             if line.startswith('OBS:'):
@@ -33,11 +40,19 @@ def add_spectrum_to_file(fname,spec_name,filt_dict=None):
                     lines[i] = lines[i].replace('g-ZTF','ZTF-g')
                 elif lines[i].split()[2] == 'r-ZTF':
                     lines[i] = lines[i].replace('r-ZTF','ZTF-r')
+                elif lines[i].split()[2]=='i-ZTF':
+                    lines[i] = lines[i].replace('i-ZTF','ZTF-i')
+                if not np.any([x in lines[i].split()[2] for x in filt_remove]):
+                    keep.append(i)
+                if lines[i].split()[2] in global_swap.keys():
+                    lines[i] = lines[i].replace(lines[i].split()[2],global_swap[lines[i].split()[2]])
+            else:
+                keep.append(i)
             if line.startswith('NSPECTRA:'):
                 nspec = int(line.split()[-1])
                 lines[i] = line.replace(line.split()[-1],str(int(line.split()[-1])+1))
                 break
-   
+        lines = list(np.array(lines)[np.array(keep)])
         lines.append('\n')
         lines.append('SPECTRUM_ID: %i\n'%(nspec+1))
 
@@ -260,7 +275,7 @@ _snidlist = {'2021J':{'in_saltshaker_format':True,
                       'filter_dict':{}}}
 
 for sn in _snidlist:
-    if sn !='ASASSN14LP':# in ['2015F','2013dy','2001eh']:
+    if sn in ['2015F','2013dy','2001eh']:
         continue
     print(sn)
     print(_snidlist[sn])
