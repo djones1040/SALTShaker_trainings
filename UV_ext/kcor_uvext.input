@@ -48,16 +48,7 @@ FILTER: CSP-n/x  V_LC9844_tel_ccd_atm_ext_1.2.dat    9.472
 FILTER: CSP-o/v  V_LC3009_tel_ccd_atm_ext_1.2.dat    9.472
 FILTER: CSP-m/w  V_LC3014_tel_ccd_atm_ext_1.2.dat    9.472
 
-# Start filters for VERSION = PS1s_CFA3_4SHOOTER2_DS17
-MAGSYSTEM:   BD17
-FILTSYSTEM:  COUNT
-FILTPATH:   PS1/Pantheon/CFA3_native
-SURVEY: CFA3S
-FILTER:  CFA3S-U/a            SNLS3_4shooter2_U.dat  9.6930 
-FILTER:  CFA3S-B/b            SNLS3_4shooter2_B.dat  9.87400-0.0377
-FILTER:  CFA3S-V/c            SNLS3_4shooter2_V.dat  9.47900-0.0087 
-FILTER:  CFA3S-R/d            SNLS3_4shooter2_R.dat  9.15500-0.013699999999999999 
-FILTER:  CFA3S-I/e            SNLS3_4shooter2_I.dat  8.85100-0.004999999999999999
+
 # Start filters for VERSION = PS1s_CFA3_KEPLERCAM_DS17
 MAGSYSTEM:   BD17
 FILTSYSTEM:  COUNT
@@ -98,19 +89,6 @@ FILTER:  Bessell-B/H          sb-shifted.dat_5A  9.90700+0.0
 FILTER:  Bessell-V/I          sv-shifted.dat_5A  9.46400+0.0 
 FILTER:  Bessell-R/J          sr-shifted.dat_5A  9.16600+0.0 
 FILTER:  Bessell-I/K          si-shifted.dat_5A  8.84600+0.0 
-# Start filters for VERSION = PS1s_CSPDR2_V_DS16
-MAGSYSTEM:   BD17
-FILTSYSTEM:  COUNT
-FILTPATH:    PS1/PS1s_RS14/CSP_Str11
-SURVEY: CSP
-FILTER:  CSP-u/t              u_texas_WLcorr_atm.txt  10.51952
-FILTER:  CSP-B/u              B_texas_WLcorr_atm.txt  9.87643
-FILTER:  CSP-o/v              V_LC3009_texas_WLcorr_atm.txt  9.47663
-FILTER:  CSP-m/w              V_LC3014_texas_WLcorr_atm.txt  9.47128
-FILTER:  CSP-n/x              V_LC9844_texas_WLcorr_atm.txt  9.47748
-FILTER:  CSP-g/y              g_texas_WLcorr_atm.txt  9.64406
-FILTER:  CSP-r/z              r_texas_WLcorr_atm.txt  9.35160
-FILTER:  CSP-i/A              i_texas_WLcorr_atm.txt  9.25000
 
 
 # specify filters :
