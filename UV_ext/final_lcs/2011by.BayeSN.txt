@@ -1,3 +1,4 @@
+SNID: 2011by
 #      sn2011by 
 # Andy Friedman's Wstd file converted to SNANA-like format. 
 # Source file: sn2011by__J_28_H_27_K_13__CfAIR2_friedman15.Wstd.dat 
@@ -11,8 +12,7 @@
 # Script used: 03_WstdAndy_to_SNANA.ipynb 
 # Script version: 0.1.9 
 #------------------------------------------------------------
-SURVEY: LOWZ 
-SNID: 2011by 
+SURVEY: UVEXT 
 IAUC: 2011by 
 RA: 178.94 deg 
 DECL: 55.32611 deg 

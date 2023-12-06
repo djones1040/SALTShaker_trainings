@@ -1,3 +1,4 @@
+SNID: 2011fe
 #      sn2011fe 
 # Andy Friedman's Wstd file converted to SNANA-like format. 
 # Source file: sn2011fe__J_31_H_35_K_31__WIYN_matheson12_sn2011fe.Wstd.dat 
@@ -11,8 +12,7 @@
 # Script used: 03_WstdAndy_to_SNANA.ipynb 
 # Script version: 0.1.9 
 #------------------------------------------------------------
-SURVEY: LOWZ 
-SNID: 2011fe 
+SURVEY: UVEXT 
 IAUC: 2011fe 
 RA: 210.77417 deg 
 DECL: 54.27361 deg 
